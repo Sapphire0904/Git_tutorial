@@ -1,0 +1,18 @@
+2022年6月20日
+TODO： Git 教程
+
+1. 教程学习网址：
+https://www.bilibili.com/video/BV1FE411P7B3?p=6&vd_source=ca814f4abb5752b50177c892f619923a
+
+2. Git 基本命令:
+a. 无git 前缀(prefix)
+cd      ---- change directory
+pwd     ---- print working directory
+clear   ---- clear history command
+
+b. 带git 前缀 
+git clone url        ---- (url)<--填复制的链接地址
+git add .            ---- (.) 代表添加全部本地workspace的文件至stage缓存区
+git commit -m "xxx"  ---- "xxx"<--填本次修改提交内容的注释message信息
+git push             ---- 将commit提交至本地仓库的内容上传至remote仓库
+git status           ---- 查看当前状态
